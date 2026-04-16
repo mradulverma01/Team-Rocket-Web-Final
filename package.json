@@ -1,18 +1,24 @@
 {
-  "name": "team-rocket-web",
+  "name": "rrdch-typescript-app",
   "private": true,
-  "description": "Monorepo root — the Next.js + Convex app lives in rrdch/. Use these scripts from the repo root.",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "npm run dev --prefix ./rrdch",
-    "build": "npm run build --prefix ./rrdch",
-    "convex": "npm exec --prefix ./rrdch -- convex",
-    "convex:dev": "npm exec --prefix ./rrdch -- convex dev",
-    "convex:codegen": "npm exec --prefix ./rrdch -- convex codegen"
-  },
-  "devDependencies": {
-    "shadcn": "^4.2.0"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "typescript": "^6.0.2"
+    "convex": "^1.35.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
   }
 }
