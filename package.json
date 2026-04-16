@@ -1,0 +1,15 @@
+{
+  "name": "team-rocket-web",
+  "private": true,
+  "description": "Monorepo root — the Next.js + Convex app lives in rrdch/. Use these scripts from the repo root.",
+  "scripts": {
+    "dev": "npm run dev --prefix ./rrdch",
+    "build": "npm run build --prefix ./rrdch",
+    "convex": "npm exec --prefix ./rrdch -- convex",
+    "convex:dev": "npm exec --prefix ./rrdch -- convex dev",
+    "convex:codegen": "npm exec --prefix ./rrdch -- convex codegen"
+  },
+  "devDependencies": {
+    "shadcn": "^4.2.0"
+  }
+}

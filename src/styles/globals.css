@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-heading: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --primary: #1b4f8a;
+  --secondary: #2d9b6f;
+  --accent: #f5a623;
+  --surface: #f8f6f2;
+  --surface-border: #e4e7ec;
+  --text-dark: #1a1a2e;
+  --muted: #6b7280;
+}
+
+body {
+  background: var(--surface);
+  color: var(--text-dark);
+  top: 0 !important;
+}
+
+/* Google Website Translator: drop the top promo frame (hospital-site pattern) */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}

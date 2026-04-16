@@ -1,0 +1,4363 @@
+{
+  "nodes": [
+    {
+      "id": "rrdch_vite_announcements_ts",
+      "label": "announcements.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/announcements.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_complaints_ts",
+      "label": "complaints.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/complaints.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_schedules_ts",
+      "label": "schedules.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/schedules.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_schema_ts",
+      "label": "schema.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/schema.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_users_ts",
+      "label": "users.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "users_normalizeemail",
+      "label": "normalizeEmail()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "users_normalizephone",
+      "label": "normalizePhone()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "rrdch_vite_appointments_ts",
+      "label": "appointments.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "appointments_normalizeemail",
+      "label": "normalizeEmail()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L12"
+    },
+    {
+      "id": "appointments_normalizephone",
+      "label": "normalizePhone()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L16"
+    },
+    {
+      "id": "appointments_getappointmentbyid",
+      "label": "getAppointmentById()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "rrdch_vite_vite_config_ts",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/vite.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_generated_datamodel_d_ts",
+      "label": "dataModel.d.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/_generated/dataModel.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_generated_server_js",
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "rrdch-vite/_generated/server.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_generated_server_d_ts",
+      "label": "server.d.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/_generated/server.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_generated_api_js",
+      "label": "api.js",
+      "file_type": "code",
+      "source_file": "rrdch-vite/_generated/api.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_generated_api_d_ts",
+      "label": "api.d.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_app_tsx",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_main_tsx",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_components_footer_tsx",
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/Footer.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "footer_icon",
+      "label": "Icon()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/Footer.tsx",
+      "source_location": "L91"
+    },
+    {
+      "id": "rrdch_vite_src_components_header_tsx",
+      "label": "Header.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "header_closemenus",
+      "label": "closeMenus()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L141"
+    },
+    {
+      "id": "header_toggledropdown",
+      "label": "toggleDropdown()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L146"
+    },
+    {
+      "id": "rrdch_vite_src_components_manipalbutton_tsx",
+      "label": "ManipalButton.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/ManipalButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "manipalbutton_manipalbutton",
+      "label": "ManipalButton()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/ManipalButton.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "rrdch_vite_src_components_authcontrols_tsx",
+      "label": "AuthControls.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/AuthControls.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "authcontrols_handlegooglesignin",
+      "label": "handleGoogleSignIn()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/components/AuthControls.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "rrdch_vite_src_pages_aboutus_tsx",
+      "label": "AboutUs.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AboutUs.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "aboutus_aboutus",
+      "label": "AboutUs()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AboutUs.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_acareerguidanceprogramme_tsx",
+      "label": "ACareerGuidanceProgramme.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ACareerGuidanceProgramme.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "acareerguidanceprogramme_acareerguidanceprogramme",
+      "label": "ACareerGuidanceProgramme()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ACareerGuidanceProgramme.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_accreditation_tsx",
+      "label": "Accreditation.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Accreditation.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "accreditation_accreditation",
+      "label": "Accreditation()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Accreditation.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_achievements_tsx",
+      "label": "Achievements.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Achievements.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_alumni_tsx",
+      "label": "Alumni.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Alumni.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_alumnimeet_tsx",
+      "label": "AlumniMeet.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AlumniMeet.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "alumnimeet_alumnimeet",
+      "label": "AlumniMeet()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AlumniMeet.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_antiragging_tsx",
+      "label": "AntiRagging.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AntiRagging.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "antiragging_antiragging",
+      "label": "AntiRagging()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AntiRagging.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_aqar_tsx",
+      "label": "AQAR.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AQAR.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "aqar_aqar",
+      "label": "AQAR()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/AQAR.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_auditorium_tsx",
+      "label": "Auditorium.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Auditorium.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auditorium_auditorium",
+      "label": "Auditorium()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Auditorium.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_bds_tsx",
+      "label": "BDS.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BDS.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "bds_bds",
+      "label": "BDS()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BDS.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_blooddonation_tsx",
+      "label": "BloodDonation.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BloodDonation.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "blooddonation_blooddonation",
+      "label": "BloodDonation()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BloodDonation.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_blooddonationcamp2015_tsx",
+      "label": "BloodDonationCamp2015.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BloodDonationCamp2015.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "blooddonationcamp2015_blooddonationcamp2015",
+      "label": "BloodDonationCamp2015()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/BloodDonationCamp2015.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_cafeteria_tsx",
+      "label": "Cafeteria.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Cafeteria.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "cafeteria_cafeteria",
+      "label": "Cafeteria()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Cafeteria.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_calendarofevents_tsx",
+      "label": "CalendarOfEvents.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CalendarOfEvents.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "calendarofevents_calendarofevents",
+      "label": "CalendarOfEvents()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CalendarOfEvents.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_career_tsx",
+      "label": "Career.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Career.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "career_career",
+      "label": "Career()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Career.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_cdeprogramme_tsx",
+      "label": "CDEProgramme.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CDEProgramme.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "cdeprogramme_cdeprogramme",
+      "label": "CDEProgramme()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CDEProgramme.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_certificatecourseimplantology_tsx",
+      "label": "CertificateCourseImplantology.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CertificateCourseImplantology.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_chairmansdesk_tsx",
+      "label": "ChairmansDesk.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ChairmansDesk.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "chairmansdesk_chairmansdesk",
+      "label": "ChairmansDesk()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ChairmansDesk.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_circulars_tsx",
+      "label": "Circulars.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Circulars.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "circulars_circulars",
+      "label": "Circulars()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Circulars.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_classroom_tsx",
+      "label": "Classroom.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Classroom.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "classroom_classroom",
+      "label": "Classroom()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Classroom.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_committee_tsx",
+      "label": "Committee.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Committee.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "committee_committee",
+      "label": "Committee()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Committee.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_contactus_tsx",
+      "label": "ContactUs.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "contactus_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "contactus_handlechange",
+      "label": "handleChange()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L17"
+    },
+    {
+      "id": "rrdch_vite_src_pages_contactusacknowledgement_tsx",
+      "label": "ContactUsAcknowledgement.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUsAcknowledgement.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "contactusacknowledgement_contactusacknowledgement",
+      "label": "ContactUsAcknowledgement()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUsAcknowledgement.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_contactusforbdsadmission_tsx",
+      "label": "ContactUsForBDSAdmission.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUsForBDSAdmission.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "contactusforbdsadmission_contactusforbdsadmission",
+      "label": "ContactUsForBDSAdmission()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ContactUsForBDSAdmission.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_courses_tsx",
+      "label": "Courses.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Courses.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_cultural_tsx",
+      "label": "Cultural.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Cultural.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "cultural_cultural",
+      "label": "Cultural()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Cultural.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_currenttrendsandresearchprospects_tsx",
+      "label": "CurrentTrendsAndResearchProspects.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "currenttrendsandresearchprospects_currenttrendsandresearchprospects",
+      "label": "CurrentTrendsAndResearchProspects()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_currenttrendsandresearchprospects2_tsx",
+      "label": "CurrentTrendsAndResearchProspects2.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects2.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "currenttrendsandresearchprospects2_currenttrendsandresearchprospects2",
+      "label": "CurrentTrendsAndResearchProspects2()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects2.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_dcimandatory_tsx",
+      "label": "DCIMandatory.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DCIMandatory.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "dcimandatory_dcimandatory",
+      "label": "DCIMandatory()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DCIMandatory.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_digitallibrary_tsx",
+      "label": "DigitalLibrary.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DigitalLibrary.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "digitallibrary_digitallibrary",
+      "label": "DigitalLibrary()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DigitalLibrary.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_doctorsday_tsx",
+      "label": "DoctorsDay.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DoctorsDay.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "doctorsday_doctorsday",
+      "label": "DoctorsDay()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/DoctorsDay.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_ebrochure_tsx",
+      "label": "EBrochure.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/EBrochure.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ebrochure_ebrochure",
+      "label": "EBrochure()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/EBrochure.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_esi_tsx",
+      "label": "ESI.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ESI.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "esi_esi",
+      "label": "ESI()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ESI.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_extracurricularactivities_tsx",
+      "label": "ExtraCurricularActivities.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ExtraCurricularActivities.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "extracurricularactivities_extracurricularactivities",
+      "label": "ExtraCurricularActivities()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ExtraCurricularActivities.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_facilities_tsx",
+      "label": "Facilities.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Facilities.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_feedback_tsx",
+      "label": "Feedback.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Feedback.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "feedback_feedback",
+      "label": "Feedback()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Feedback.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_feesdetails202122_tsx",
+      "label": "FeesDetails202122.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FeesDetails202122.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "feesdetails202122_feesdetails202122",
+      "label": "FeesDetails202122()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FeesDetails202122.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_fellowshipforourdean_tsx",
+      "label": "FellowshipForOurDean.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FellowshipForOurDean.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fellowshipforourdean_fellowshipforourdean",
+      "label": "FellowshipForOurDean()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FellowshipForOurDean.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_fourthsatellitefreedentalclinic_tsx",
+      "label": "FourthSatelliteFreeDentalClinic.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FourthSatelliteFreeDentalClinic.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "fourthsatellitefreedentalclinic_fourthsatellitefreedentalclinic",
+      "label": "FourthSatelliteFreeDentalClinic()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FourthSatelliteFreeDentalClinic.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_freshersday_tsx",
+      "label": "FreshersDay.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FreshersDay.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "freshersday_freshersday",
+      "label": "FreshersDay()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/FreshersDay.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_general_tsx",
+      "label": "General.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/General.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "general_general",
+      "label": "General()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/General.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_governingcouncil_tsx",
+      "label": "GoverningCouncil.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/GoverningCouncil.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "governingcouncil_governingcouncil",
+      "label": "GoverningCouncil()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/GoverningCouncil.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_gymnasium_tsx",
+      "label": "Gymnasium.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Gymnasium.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "gymnasium_gymnasium",
+      "label": "Gymnasium()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Gymnasium.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_healthcareservices_tsx",
+      "label": "HealthCareServices.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/HealthCareServices.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "healthcareservices_healthcareservices",
+      "label": "HealthCareServices()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/HealthCareServices.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_hlact_tsx",
+      "label": "HLACT.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/HLACT.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "hlact_hlact",
+      "label": "HLACT()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/HLACT.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_home_tsx",
+      "label": "Home.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Home.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_hostel_tsx",
+      "label": "Hostel.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Hostel.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "hostel_hostel",
+      "label": "Hostel()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Hostel.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_iiqa_tsx",
+      "label": "IIQA.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/IIQA.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "iiqa_iiqa",
+      "label": "IIQA()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/IIQA.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_iqac_tsx",
+      "label": "IQAC.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/IQAC.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "iqac_iqac",
+      "label": "IQAC()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/IQAC.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_makeenquiry_tsx",
+      "label": "MakeEnquiry.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MakeEnquiry.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "makeenquiry_makeenquiry",
+      "label": "MakeEnquiry()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MakeEnquiry.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_management_tsx",
+      "label": "Management.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Management.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "management_management",
+      "label": "Management()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Management.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_maxillofacialsurgerydepartment_tsx",
+      "label": "MaxillofacialSurgeryDepartment.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MaxillofacialSurgeryDepartment.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "maxillofacialsurgerydepartment_maxillofacialsurgerydepartment",
+      "label": "MaxillofacialSurgeryDepartment()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MaxillofacialSurgeryDepartment.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_mds_tsx",
+      "label": "MDS.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MDS.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "mds_mds",
+      "label": "MDS()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MDS.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_mds1_tsx",
+      "label": "MDS1.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MDS1.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "mds1_mds1",
+      "label": "MDS1()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MDS1.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_monthlyclinicalmeet_tsx",
+      "label": "MonthlyClinicalMeet.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MonthlyClinicalMeet.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "monthlyclinicalmeet_monthlyclinicalmeet",
+      "label": "MonthlyClinicalMeet()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/MonthlyClinicalMeet.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_naac_tsx",
+      "label": "NAAC.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NAAC.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_naacpeerteamvisit_tsx",
+      "label": "NAACPeerTeamVisit.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NAACPeerTeamVisit.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "naacpeerteamvisit_naacpeerteamvisit",
+      "label": "NAACPeerTeamVisit()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NAACPeerTeamVisit.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_newsandevents_tsx",
+      "label": "NewsAndEvents.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NewsAndEvents.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_newsletter_tsx",
+      "label": "Newsletter.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Newsletter.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "newsletter_newsletter",
+      "label": "Newsletter()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Newsletter.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_nineteenthgraduationday_tsx",
+      "label": "NineteenthGraduationDay.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NineteenthGraduationDay.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "nineteenthgraduationday_nineteenthgraduationday",
+      "label": "NineteenthGraduationDay()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NineteenthGraduationDay.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_nirf_tsx",
+      "label": "NIRF.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NIRF.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_nssactivity_tsx",
+      "label": "NSSActivity.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NSSActivity.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "nssactivity_nssactivity",
+      "label": "NSSActivity()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/NSSActivity.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_oralhealth_tsx",
+      "label": "OralHealth.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OralHealth.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "oralhealth_oralhealth",
+      "label": "OralHealth()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OralHealth.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_oralhygienedaycelebrations_tsx",
+      "label": "OralHygieneDayCelebrations.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OralHygieneDayCelebrations.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "oralhygienedaycelebrations_oralhygienedaycelebrations",
+      "label": "OralHygieneDayCelebrations()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OralHygieneDayCelebrations.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_orthognathicsurgeryworkshop_tsx",
+      "label": "OrthognathicSurgeryWorkshop.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OrthognathicSurgeryWorkshop.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "orthognathicsurgeryworkshop_orthognathicsurgeryworkshop",
+      "label": "OrthognathicSurgeryWorkshop()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/OrthognathicSurgeryWorkshop.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_periodontology_tsx",
+      "label": "Periodontology.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Periodontology.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "periodontology_periodontology",
+      "label": "Periodontology()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Periodontology.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_phd_tsx",
+      "label": "PhD.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/PhD.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "phd_phd",
+      "label": "PhD()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/PhD.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_photogallery_tsx",
+      "label": "PhotoGallery.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/PhotoGallery.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdch_vite_src_pages_prostheticscrownbridge_tsx",
+      "label": "ProstheticsCrownBridge.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ProstheticsCrownBridge.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "prostheticscrownbridge_prostheticscrownbridge",
+      "label": "ProstheticsCrownBridge()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/ProstheticsCrownBridge.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_publichealthdentistrygallery_tsx",
+      "label": "PublicHealthDentistryGallery.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/PublicHealthDentistryGallery.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "publichealthdentistrygallery_publichealthdentistrygallery",
+      "label": "PublicHealthDentistryGallery()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/PublicHealthDentistryGallery.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_recognitions_tsx",
+      "label": "Recognitions.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Recognitions.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "recognitions_recognitions",
+      "label": "Recognitions()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Recognitions.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_rrdchisnaacaaccredited_tsx",
+      "label": "RRDCHIsNAACAAccredited.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/RRDCHIsNAACAAccredited.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdchisnaacaaccredited_rrdchisnaacaaccredited",
+      "label": "RRDCHIsNAACAAccredited()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/RRDCHIsNAACAAccredited.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_rrdchrebuiltfull_tsx",
+      "label": "RRDCHRebuiltFull.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/RRDCHRebuiltFull.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rrdchrebuiltfull_rrdchrebuiltfull",
+      "label": "RRDCHRebuiltFull()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/RRDCHRebuiltFull.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_schedule_tsx",
+      "label": "Schedule.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Schedule.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "schedule_schedule",
+      "label": "Schedule()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Schedule.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_seventeenthgraduationday_tsx",
+      "label": "SeventeenthGraduationDay.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SeventeenthGraduationDay.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "seventeenthgraduationday_seventeenthgraduationday",
+      "label": "SeventeenthGraduationDay()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SeventeenthGraduationDay.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_sports_tsx",
+      "label": "Sports.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Sports.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sports_sports",
+      "label": "Sports()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Sports.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_sportsrecreation_tsx",
+      "label": "SportsRecreation.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SportsRecreation.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sportsrecreation_sportsrecreation",
+      "label": "SportsRecreation()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SportsRecreation.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_ssr_tsx",
+      "label": "SSR.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SSR.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ssr_ssr",
+      "label": "SSR()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/SSR.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_stemcellsinoralcancer_tsx",
+      "label": "StemCellsInOralCancer.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "stemcellsinoralcancer_stemcellsinoralcancer",
+      "label": "StemCellsInOralCancer()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_stemcellsinoralcancer2_tsx",
+      "label": "StemCellsInOralCancer2.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer2.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "stemcellsinoralcancer2_stemcellsinoralcancer2",
+      "label": "StemCellsInOralCancer2()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer2.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_timetable_tsx",
+      "label": "TimeTable.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/TimeTable.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "timetable_timetable",
+      "label": "TimeTable()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/TimeTable.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_tobaccofreeindiacampaign_tsx",
+      "label": "TobaccoFreeIndiaCampaign.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/TobaccoFreeIndiaCampaign.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "tobaccofreeindiacampaign_tobaccofreeindiacampaign",
+      "label": "TobaccoFreeIndiaCampaign()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/TobaccoFreeIndiaCampaign.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_transportation_tsx",
+      "label": "Transportation.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Transportation.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "transportation_transportation",
+      "label": "Transportation()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Transportation.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_trust_tsx",
+      "label": "Trust.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Trust.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "trust_trust",
+      "label": "Trust()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Trust.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_uncategorized_tsx",
+      "label": "Uncategorized.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Uncategorized.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "uncategorized_uncategorized",
+      "label": "Uncategorized()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/Uncategorized.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_variousnewspaperspressrelease_tsx",
+      "label": "VariousNewspapersPressRelease.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VariousNewspapersPressRelease.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "variousnewspaperspressrelease_variousnewspaperspressrelease",
+      "label": "VariousNewspapersPressRelease()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VariousNewspapersPressRelease.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_videogallery_tsx",
+      "label": "VideoGallery.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VideoGallery.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "videogallery_videogallery",
+      "label": "VideoGallery()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VideoGallery.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_visitofiraniancounselor_tsx",
+      "label": "VisitOfIranianCounselor.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VisitOfIranianCounselor.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "visitofiraniancounselor_visitofiraniancounselor",
+      "label": "VisitOfIranianCounselor()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VisitOfIranianCounselor.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_visitofroyalcollegeprofessortorrdch_tsx",
+      "label": "VisitOfRoyalCollegeProfessorToRRDCH.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VisitOfRoyalCollegeProfessorToRRDCH.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "visitofroyalcollegeprofessortorrdch_visitofroyalcollegeprofessortorrdch",
+      "label": "VisitOfRoyalCollegeProfessorToRRDCH()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/VisitOfRoyalCollegeProfessorToRRDCH.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_welcometoyouralmamater_tsx",
+      "label": "WelcomeToYourAlmaMater.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/WelcomeToYourAlmaMater.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "welcometoyouralmamater_welcometoyouralmamater",
+      "label": "WelcomeToYourAlmaMater()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/WelcomeToYourAlmaMater.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_src_pages_worldnotobaccoday2015_tsx",
+      "label": "WorldNoTobaccoDay2015.tsx",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/WorldNoTobaccoDay2015.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "worldnotobaccoday2015_worldnotobaccoday2015",
+      "label": "WorldNoTobaccoDay2015()",
+      "file_type": "code",
+      "source_file": "rrdch-vite/src/pages/WorldNoTobaccoDay2015.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "rrdch_vite_convex_http_ts",
+      "label": "http.ts",
+      "file_type": "code",
+      "source_file": "rrdch-vite/convex/http.ts",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "rrdch_vite_announcements_ts",
+      "target": "rrdch_vite_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/announcements.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_announcements_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/announcements.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_complaints_ts",
+      "target": "rrdch_vite_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/complaints.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_complaints_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/complaints.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_schedules_ts",
+      "target": "rrdch_vite_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/schedules.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_schedules_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/schedules.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_schema_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/schema.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_schema_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/schema.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_schema_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/schema.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_auth_ts",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_auth_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_auth_ts",
+      "target": "password",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/auth.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_users_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_users_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_users_ts",
+      "target": "rrdch_vite_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_users_ts",
+      "target": "users_normalizeemail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_users_ts",
+      "target": "users_normalizephone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/users.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "rrdch_vite_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "appointments_normalizeemail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "appointments_normalizephone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_appointments_ts",
+      "target": "appointments_getappointmentbyid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/appointments.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/vite.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_vite_config_ts",
+      "target": "plugin_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/vite.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_datamodel_d_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/dataModel.d.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_datamodel_d_ts",
+      "target": "values",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/dataModel.d.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_datamodel_d_ts",
+      "target": "rrdch_vite_generated_schema_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/dataModel.d.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_server_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/server.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_server_d_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/server.d.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_server_d_ts",
+      "target": "rrdch_vite_generated_datamodel_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/server.d.ts",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_d_ts",
+      "target": "rrdch_vite_generated_announcements_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_d_ts",
+      "target": "rrdch_vite_generated_appointments_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_d_ts",
+      "target": "rrdch_vite_generated_complaints_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_d_ts",
+      "target": "rrdch_vite_generated_schedules_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_generated_api_d_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/_generated/api.d.ts",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_components_header",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_components_footer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_home",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_aboutus",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_contactus",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_courses",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_accreditation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_achievements",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_alumni",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_antiragging",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_auditorium",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_bds",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_blooddonation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_blooddonationcamp2015",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_cafeteria",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_calendarofevents",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_career",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_certificatecourseimplantology",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_chairmansdesk",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_circulars",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_classroom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_committee",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_contactusacknowledgement",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_contactusforbdsadmission",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_dcimandatory",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_digitallibrary",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_doctorsday",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_ebrochure",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_esi",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_extracurricularactivities",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_facilities",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_feedback",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_feesdetails202122",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_fellowshipforourdean",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_freshersday",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_general",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_governingcouncil",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_gymnasium",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_healthcareservices",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_hlact",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_hostel",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_iiqa",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_iqac",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_makeenquiry",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_management",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_maxillofacialsurgerydepartment",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_mds",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_mds1",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_monthlyclinicalmeet",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_naac",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_naacpeerteamvisit",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_nirf",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_newsletter",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_nssactivity",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_oralhealth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_oralhygienedaycelebrations",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_periodontology",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_phd",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_photogallery",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_prostheticscrownbridge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_publichealthdentistrygallery",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_recognitions",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_rrdchisnaacaaccredited",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_schedule",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_sportsrecreation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_sports",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_ssr",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_timetable",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_tobaccofreeindiacampaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_transportation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_trust",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_uncategorized",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_variousnewspaperspressrelease",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_videogallery",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_visitofiraniancounselor",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_visitofroyalcollegeprofessortorrdch",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_welcometoyouralmamater",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_worldnotobaccoday2015",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_acareerguidanceprogramme",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_fourthsatellitefreedentalclinic",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_nineteenthgraduationday",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_seventeenthgraduationday",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_alumnimeet",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_currenttrendsandresearchprospects",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_currenttrendsandresearchprospects2",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_cultural",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_cdeprogramme",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_orthognathicsurgeryworkshop",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_stemcellsinoralcancer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_stemcellsinoralcancer2",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_aqar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_newsandevents",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_app_tsx",
+      "target": "rrdch_vite_src_pages_rrdchrebuiltfull",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/App.tsx",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "rrdch_vite_src_app",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_main_tsx",
+      "target": "rrdch_vite_src_index_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/main.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_footer_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_footer_tsx",
+      "target": "footer_icon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Footer.tsx",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_header_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_header_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_header_tsx",
+      "target": "rrdch_vite_src_components_authcontrols",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_header_tsx",
+      "target": "header_closemenus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_header_tsx",
+      "target": "header_toggledropdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/Header.tsx",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_manipalbutton_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/ManipalButton.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_manipalbutton_tsx",
+      "target": "manipalbutton_manipalbutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/ManipalButton.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_authcontrols_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/AuthControls.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_components_authcontrols_tsx",
+      "target": "authcontrols_handlegooglesignin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/components/AuthControls.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_aboutus_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AboutUs.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_aboutus_tsx",
+      "target": "aboutus_aboutus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AboutUs.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_acareerguidanceprogramme_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ACareerGuidanceProgramme.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_acareerguidanceprogramme_tsx",
+      "target": "acareerguidanceprogramme_acareerguidanceprogramme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ACareerGuidanceProgramme.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_accreditation_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Accreditation.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_accreditation_tsx",
+      "target": "accreditation_accreditation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Accreditation.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_achievements_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Achievements.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_alumni_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Alumni.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_alumnimeet_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AlumniMeet.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_alumnimeet_tsx",
+      "target": "alumnimeet_alumnimeet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AlumniMeet.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_antiragging_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AntiRagging.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_antiragging_tsx",
+      "target": "antiragging_antiragging",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AntiRagging.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_aqar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AQAR.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_aqar_tsx",
+      "target": "aqar_aqar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/AQAR.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_auditorium_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Auditorium.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_auditorium_tsx",
+      "target": "auditorium_auditorium",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Auditorium.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_bds_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BDS.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_bds_tsx",
+      "target": "bds_bds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BDS.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_blooddonation_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BloodDonation.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_blooddonation_tsx",
+      "target": "blooddonation_blooddonation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BloodDonation.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_blooddonationcamp2015_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BloodDonationCamp2015.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_blooddonationcamp2015_tsx",
+      "target": "blooddonationcamp2015_blooddonationcamp2015",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/BloodDonationCamp2015.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cafeteria_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Cafeteria.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cafeteria_tsx",
+      "target": "cafeteria_cafeteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Cafeteria.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_calendarofevents_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CalendarOfEvents.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_calendarofevents_tsx",
+      "target": "calendarofevents_calendarofevents",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CalendarOfEvents.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_career_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Career.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_career_tsx",
+      "target": "career_career",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Career.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cdeprogramme_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CDEProgramme.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cdeprogramme_tsx",
+      "target": "cdeprogramme_cdeprogramme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CDEProgramme.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_certificatecourseimplantology_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CertificateCourseImplantology.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_chairmansdesk_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ChairmansDesk.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_chairmansdesk_tsx",
+      "target": "chairmansdesk_chairmansdesk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ChairmansDesk.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_circulars_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Circulars.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_circulars_tsx",
+      "target": "circulars_circulars",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Circulars.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_classroom_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Classroom.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_classroom_tsx",
+      "target": "classroom_classroom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Classroom.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_committee_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Committee.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_committee_tsx",
+      "target": "committee_committee",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Committee.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactus_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactus_tsx",
+      "target": "contactus_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactus_tsx",
+      "target": "contactus_handlechange",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUs.tsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactusacknowledgement_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUsAcknowledgement.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactusacknowledgement_tsx",
+      "target": "contactusacknowledgement_contactusacknowledgement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUsAcknowledgement.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactusforbdsadmission_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUsForBDSAdmission.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_contactusforbdsadmission_tsx",
+      "target": "contactusforbdsadmission_contactusforbdsadmission",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ContactUsForBDSAdmission.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_courses_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Courses.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_courses_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Courses.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cultural_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Cultural.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_cultural_tsx",
+      "target": "cultural_cultural",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Cultural.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_currenttrendsandresearchprospects_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_currenttrendsandresearchprospects_tsx",
+      "target": "currenttrendsandresearchprospects_currenttrendsandresearchprospects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_currenttrendsandresearchprospects2_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects2.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_currenttrendsandresearchprospects2_tsx",
+      "target": "currenttrendsandresearchprospects2_currenttrendsandresearchprospects2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/CurrentTrendsAndResearchProspects2.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_dcimandatory_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DCIMandatory.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_dcimandatory_tsx",
+      "target": "dcimandatory_dcimandatory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DCIMandatory.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_digitallibrary_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DigitalLibrary.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_digitallibrary_tsx",
+      "target": "digitallibrary_digitallibrary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DigitalLibrary.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_doctorsday_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DoctorsDay.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_doctorsday_tsx",
+      "target": "doctorsday_doctorsday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/DoctorsDay.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_ebrochure_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/EBrochure.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_ebrochure_tsx",
+      "target": "ebrochure_ebrochure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/EBrochure.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_esi_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ESI.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_esi_tsx",
+      "target": "esi_esi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ESI.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_extracurricularactivities_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ExtraCurricularActivities.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_extracurricularactivities_tsx",
+      "target": "extracurricularactivities_extracurricularactivities",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ExtraCurricularActivities.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_facilities_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Facilities.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_facilities_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Facilities.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_feedback_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Feedback.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_feedback_tsx",
+      "target": "feedback_feedback",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Feedback.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_feesdetails202122_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FeesDetails202122.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_feesdetails202122_tsx",
+      "target": "feesdetails202122_feesdetails202122",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FeesDetails202122.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_fellowshipforourdean_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FellowshipForOurDean.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_fellowshipforourdean_tsx",
+      "target": "fellowshipforourdean_fellowshipforourdean",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FellowshipForOurDean.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_fourthsatellitefreedentalclinic_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FourthSatelliteFreeDentalClinic.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_fourthsatellitefreedentalclinic_tsx",
+      "target": "fourthsatellitefreedentalclinic_fourthsatellitefreedentalclinic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FourthSatelliteFreeDentalClinic.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_freshersday_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FreshersDay.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_freshersday_tsx",
+      "target": "freshersday_freshersday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/FreshersDay.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_general_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/General.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_general_tsx",
+      "target": "general_general",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/General.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_governingcouncil_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/GoverningCouncil.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_governingcouncil_tsx",
+      "target": "governingcouncil_governingcouncil",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/GoverningCouncil.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_gymnasium_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Gymnasium.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_gymnasium_tsx",
+      "target": "gymnasium_gymnasium",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Gymnasium.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_healthcareservices_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/HealthCareServices.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_healthcareservices_tsx",
+      "target": "healthcareservices_healthcareservices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/HealthCareServices.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_hlact_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/HLACT.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_hlact_tsx",
+      "target": "hlact_hlact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/HLACT.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_home_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Home.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_home_tsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Home.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_hostel_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Hostel.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_hostel_tsx",
+      "target": "hostel_hostel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Hostel.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_iiqa_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/IIQA.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_iiqa_tsx",
+      "target": "iiqa_iiqa",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/IIQA.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_iqac_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/IQAC.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_iqac_tsx",
+      "target": "iqac_iqac",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/IQAC.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_makeenquiry_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MakeEnquiry.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_makeenquiry_tsx",
+      "target": "makeenquiry_makeenquiry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MakeEnquiry.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_management_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Management.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_management_tsx",
+      "target": "management_management",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Management.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_maxillofacialsurgerydepartment_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MaxillofacialSurgeryDepartment.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_maxillofacialsurgerydepartment_tsx",
+      "target": "maxillofacialsurgerydepartment_maxillofacialsurgerydepartment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MaxillofacialSurgeryDepartment.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_mds_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MDS.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_mds_tsx",
+      "target": "mds_mds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MDS.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_mds1_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MDS1.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_mds1_tsx",
+      "target": "mds1_mds1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MDS1.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_monthlyclinicalmeet_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MonthlyClinicalMeet.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_monthlyclinicalmeet_tsx",
+      "target": "monthlyclinicalmeet_monthlyclinicalmeet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/MonthlyClinicalMeet.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_naac_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NAAC.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_naacpeerteamvisit_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NAACPeerTeamVisit.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_naacpeerteamvisit_tsx",
+      "target": "naacpeerteamvisit_naacpeerteamvisit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NAACPeerTeamVisit.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_newsandevents_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NewsAndEvents.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_newsletter_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Newsletter.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_newsletter_tsx",
+      "target": "newsletter_newsletter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Newsletter.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_nineteenthgraduationday_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NineteenthGraduationDay.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_nineteenthgraduationday_tsx",
+      "target": "nineteenthgraduationday_nineteenthgraduationday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NineteenthGraduationDay.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_nirf_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NIRF.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_nssactivity_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NSSActivity.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_nssactivity_tsx",
+      "target": "nssactivity_nssactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/NSSActivity.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_oralhealth_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OralHealth.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_oralhealth_tsx",
+      "target": "oralhealth_oralhealth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OralHealth.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_oralhygienedaycelebrations_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OralHygieneDayCelebrations.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_oralhygienedaycelebrations_tsx",
+      "target": "oralhygienedaycelebrations_oralhygienedaycelebrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OralHygieneDayCelebrations.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_orthognathicsurgeryworkshop_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OrthognathicSurgeryWorkshop.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_orthognathicsurgeryworkshop_tsx",
+      "target": "orthognathicsurgeryworkshop_orthognathicsurgeryworkshop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/OrthognathicSurgeryWorkshop.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_periodontology_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Periodontology.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_periodontology_tsx",
+      "target": "periodontology_periodontology",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Periodontology.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_phd_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/PhD.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_phd_tsx",
+      "target": "phd_phd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/PhD.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_photogallery_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/PhotoGallery.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_prostheticscrownbridge_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ProstheticsCrownBridge.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_prostheticscrownbridge_tsx",
+      "target": "prostheticscrownbridge_prostheticscrownbridge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/ProstheticsCrownBridge.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_publichealthdentistrygallery_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/PublicHealthDentistryGallery.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_publichealthdentistrygallery_tsx",
+      "target": "publichealthdentistrygallery_publichealthdentistrygallery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/PublicHealthDentistryGallery.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_recognitions_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Recognitions.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_recognitions_tsx",
+      "target": "recognitions_recognitions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Recognitions.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_rrdchisnaacaaccredited_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/RRDCHIsNAACAAccredited.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_rrdchisnaacaaccredited_tsx",
+      "target": "rrdchisnaacaaccredited_rrdchisnaacaaccredited",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/RRDCHIsNAACAAccredited.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_rrdchrebuiltfull_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/RRDCHRebuiltFull.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_rrdchrebuiltfull_tsx",
+      "target": "rrdchrebuiltfull_rrdchrebuiltfull",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/RRDCHRebuiltFull.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_schedule_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Schedule.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_schedule_tsx",
+      "target": "schedule_schedule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Schedule.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_seventeenthgraduationday_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SeventeenthGraduationDay.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_seventeenthgraduationday_tsx",
+      "target": "seventeenthgraduationday_seventeenthgraduationday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SeventeenthGraduationDay.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_sports_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Sports.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_sports_tsx",
+      "target": "sports_sports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Sports.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_sportsrecreation_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SportsRecreation.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_sportsrecreation_tsx",
+      "target": "sportsrecreation_sportsrecreation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SportsRecreation.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_ssr_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SSR.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_ssr_tsx",
+      "target": "ssr_ssr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/SSR.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_stemcellsinoralcancer_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_stemcellsinoralcancer_tsx",
+      "target": "stemcellsinoralcancer_stemcellsinoralcancer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_stemcellsinoralcancer2_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer2.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_stemcellsinoralcancer2_tsx",
+      "target": "stemcellsinoralcancer2_stemcellsinoralcancer2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/StemCellsInOralCancer2.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_timetable_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/TimeTable.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_timetable_tsx",
+      "target": "timetable_timetable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/TimeTable.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_tobaccofreeindiacampaign_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/TobaccoFreeIndiaCampaign.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_tobaccofreeindiacampaign_tsx",
+      "target": "tobaccofreeindiacampaign_tobaccofreeindiacampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/TobaccoFreeIndiaCampaign.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_transportation_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Transportation.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_transportation_tsx",
+      "target": "transportation_transportation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Transportation.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_trust_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Trust.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_trust_tsx",
+      "target": "trust_trust",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Trust.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_uncategorized_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Uncategorized.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_uncategorized_tsx",
+      "target": "uncategorized_uncategorized",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/Uncategorized.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_variousnewspaperspressrelease_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VariousNewspapersPressRelease.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_variousnewspaperspressrelease_tsx",
+      "target": "variousnewspaperspressrelease_variousnewspaperspressrelease",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VariousNewspapersPressRelease.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_videogallery_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VideoGallery.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_videogallery_tsx",
+      "target": "videogallery_videogallery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VideoGallery.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_visitofiraniancounselor_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VisitOfIranianCounselor.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_visitofiraniancounselor_tsx",
+      "target": "visitofiraniancounselor_visitofiraniancounselor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VisitOfIranianCounselor.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_visitofroyalcollegeprofessortorrdch_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VisitOfRoyalCollegeProfessorToRRDCH.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_visitofroyalcollegeprofessortorrdch_tsx",
+      "target": "visitofroyalcollegeprofessortorrdch_visitofroyalcollegeprofessortorrdch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/VisitOfRoyalCollegeProfessorToRRDCH.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_welcometoyouralmamater_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/WelcomeToYourAlmaMater.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_welcometoyouralmamater_tsx",
+      "target": "welcometoyouralmamater_welcometoyouralmamater",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/WelcomeToYourAlmaMater.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_worldnotobaccoday2015_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/WorldNoTobaccoDay2015.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_src_pages_worldnotobaccoday2015_tsx",
+      "target": "worldnotobaccoday2015_worldnotobaccoday2015",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/src/pages/WorldNoTobaccoDay2015.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_convex_http_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/convex/http.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "rrdch_vite_convex_http_ts",
+      "target": "rrdch_vite_convex_generated_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "rrdch-vite/convex/http.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

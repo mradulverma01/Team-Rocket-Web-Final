@@ -1,0 +1,143 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.wrap{padding:1rem 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.leg{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--color-text-secondary)}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.layer{margin-bottom:10px}
+.layer-label{font-size:11px;font-weight:500;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;padding-left:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.card{border-radius:8px;border:0.5px solid;padding:8px 10px;cursor:pointer;transition:transform .15s,box-shadow .15s;min-width:100px;flex:1}
+.card:hover{transform:translateY(-2px)}
+.card-title{font-size:12px;font-weight:500;margin-bottom:2px}
+.card-sub{font-size:10px;opacity:.75;line-height:1.4}
+.pub{background:var(--color-background-info);border-color:var(--color-border-info);color:var(--color-text-info)}
+.pat{background:#EAF3DE;border-color:#639922;color:#3B6D11}
+.stu{background:#EEEDFE;border-color:#7F77DD;color:#3C3489}
+.doc{background:#FAEEDA;border-color:#BA7517;color:#854F0B}
+.sys{background:var(--color-background-secondary);border-color:var(--color-border-secondary);color:var(--color-text-secondary)}
+.sys .card-title{color:var(--color-text-primary)}
+.sep{width:100%;height:1px;background:var(--color-border-tertiary);margin:4px 0}
+.detail{margin-top:12px;background:var(--color-background-secondary);border-radius:var(--border-radius-lg);border:0.5px solid var(--color-border-tertiary);padding:14px;min-height:80px;display:none}
+.detail.show{display:block}
+.detail h3{font-size:13px;font-weight:500;margin-bottom:8px;color:var(--color-text-primary)}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:11px;padding:3px 8px;border-radius:20px;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);background:var(--color-background-primary)}
+@media(max-width:520px){.card{min-width:80px;flex:1 1 40%}}
+</style>
+<div class="wrap">
+  <div class="legend">
+    <div class="leg"><div class="dot" style="background:#378ADD"></div>Public pages</div>
+    <div class="leg"><div class="dot" style="background:#639922"></div>Patient portal</div>
+    <div class="leg"><div class="dot" style="background:#7F77DD"></div>Student portal</div>
+    <div class="leg"><div class="dot" style="background:#BA7517"></div>Doctor/admin portal</div>
+    <div class="leg"><div class="dot" style="background:var(--color-border-primary)"></div>Systems</div>
+  </div>
+
+  <div class="layer">
+    <div class="layer-label">Public — no login required</div>
+    <div class="row">
+      <div class="card pub" onclick="show('home')"><div class="card-title">Home</div><div class="card-sub">Hero, CTA, announcements</div></div>
+      <div class="card pub" onclick="show('about')"><div class="card-title">About</div><div class="card-sub">History, leadership, accreditation</div></div>
+      <div class="card pub" onclick="show('dept')"><div class="card-title">Departments</div><div class="card-sub">Per-dept pages + faculty</div></div>
+      <div class="card pub" onclick="show('admissions')"><div class="card-title">Admissions</div><div class="card-sub">UG/PG process, fees, forms</div></div>
+      <div class="card pub" onclick="show('research')"><div class="card-title">Research</div><div class="card-sub">Publications, projects, journals</div></div>
+      <div class="card pub" onclick="show('events')"><div class="card-title">Events</div><div class="card-sub">Calendar, gallery, updates</div></div>
+      <div class="card pub" onclick="show('tour')"><div class="card-title">Virtual tour</div><div class="card-sub">360° campus + hospital</div></div>
+      <div class="card pub" onclick="show('contact')"><div class="card-title">Contact + directions</div><div class="card-sub">Map, hours, phone</div></div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+  <div class="layer">
+    <div class="layer-label">Patient portal — login required</div>
+    <div class="row">
+      <div class="card pat" onclick="show('book')"><div class="card-title">Book appointment</div><div class="card-sub">Dept → doctor → slot</div></div>
+      <div class="card pat" onclick="show('track')"><div class="card-title">My appointments</div><div class="card-sub">Track, reschedule, cancel</div></div>
+      <div class="card pat" onclick="show('reports')"><div class="card-title">Reports</div><div class="card-sub">View dental reports/X-rays</div></div>
+      <div class="card pat" onclick="show('followup')"><div class="card-title">Follow-up</div><div class="card-sub">Automated reminders</div></div>
+      <div class="card pat" onclick="show('complaint')"><div class="card-title">Hostel complaints</div><div class="card-sub">Submit + track status</div></div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+  <div class="layer">
+    <div class="layer-label">Student portal — login required</div>
+    <div class="row">
+      <div class="card stu" onclick="show('schedule')"><div class="card-title">Dept schedule</div><div class="card-sub">Timetable + room info</div></div>
+      <div class="card stu" onclick="show('syllabus')"><div class="card-title">Syllabus</div><div class="card-sub">Year-wise, downloadable</div></div>
+      <div class="card stu" onclick="show('student-res')"><div class="card-title">Resources</div><div class="card-sub">Notes, circulars, links</div></div>
+      <div class="card stu" onclick="show('hostel')"><div class="card-title">Hostel portal</div><div class="card-sub">Complaint system</div></div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+  <div class="layer">
+    <div class="layer-label">Doctor / admin portal</div>
+    <div class="row">
+      <div class="card doc" onclick="show('pg')"><div class="card-title">PG live updates</div><div class="card-sub">Patient schedule, live queue</div></div>
+      <div class="card doc" onclick="show('patient-mgmt')"><div class="card-title">Patient mgmt</div><div class="card-sub">View/update records</div></div>
+      <div class="card doc" onclick="show('announce')"><div class="card-title">Announcements</div><div class="card-sub">Push updates to patients</div></div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+  <div class="layer">
+    <div class="layer-label">Backend systems</div>
+    <div class="row">
+      <div class="card sys" onclick="show('auth-sys')"><div class="card-title">Auth</div><div class="card-sub">WorkOS · roles</div></div>
+      <div class="card sys" onclick="show('db')"><div class="card-title">Database</div><div class="card-sub">Convex · real-time</div></div>
+      <div class="card sys" onclick="show('auto')"><div class="card-title">Automation</div><div class="card-sub">Email · WhatsApp</div></div>
+      <div class="card sys" onclick="show('i18n')"><div class="card-title">i18n</div><div class="card-sub">Kannada · Tamil · EN</div></div>
+      <div class="card sys" onclick="show('chatbot')"><div class="card-title">Chatbot</div><div class="card-sub">AI support widget</div></div>
+      <div class="card sys" onclick="show('anim')"><div class="card-title">Animations</div><div class="card-sub">GSAP · scroll triggers</div></div>
+    </div>
+  </div>
+
+  <div id="detail" class="detail">
+    <h3 id="d-title"></h3>
+    <div class="pills" id="d-pills"></div>
+  </div>
+</div>
+
+<script>
+const data={
+  home:{title:'Home page',pills:['Hero section with CTA','Appointment booking shortcut','Live announcements ticker','Quick links: Departments, Admissions','Achievements strip','Google Translate widget','Chatbot launcher']},
+  about:{title:'About RRDCH',pills:['College history & milestones','Vision & mission','Principal/Dean message','Accreditations (DCI, NAAC)','Infrastructure overview','Photo gallery']},
+  dept:{title:'Departments',pills:['Oral Medicine','Orthodontics','Prosthodontics','Periodontics','Oral Surgery','Pedodontics','Conservative Dentistry','Each dept: faculty list, procedures, gallery']},
+  admissions:{title:'Admissions',pills:['UG / BDS process','PG / MDS process','Eligibility criteria','Fee structure','Application form','Hostel info','FAQ']},
+  research:{title:'Research',pills:['Publications list','Ongoing projects','Faculty research profiles','Journals & conferences','Download papers']},
+  events:{title:'Events & Calendar',pills:['Monthly calendar view','CME programs','Guest lectures','College day, sports','Photo/video gallery','Push to students via WhatsApp']},
+  tour:{title:'Virtual Tour',pills:['Embedded 360° iframe (Matterport or Google)','Department-wise navigation','Hospital wards & OT','Hostel and campus']},
+  contact:{title:'Contact & Directions',pills:['Google Maps embed','Address & phone numbers','OPD hours','Emergency contact','WhatsApp link','Email form']},
+  book:{title:'Appointment booking',pills:['Step 1: Choose department','Step 2: Choose doctor','Step 3: Choose date/slot (live availability via Convex)','Step 4: Fill patient details','Step 5: Confirm → email + WhatsApp confirmation sent','Appointment ID generated']},
+  track:{title:'My appointments',pills:['List of upcoming appointments','Status: pending / confirmed / completed','Cancel / reschedule CTA','Live queue position (Convex real-time)','Download appointment slip']},
+  reports:{title:'Patient reports',pills:['View dental X-rays','Lab reports upload by admin','Download PDF','Linked to appointment ID']},
+  followup:{title:'Follow-up system',pills:['Automated reminder: 1 day before appointment','Post-visit follow-up message: 3 days after','WhatsApp + Email via n8n automation','Patients can confirm or request reschedule']},
+  complaint:{title:'Hostel complaint system',pills:['Submit complaint form (category: maintenance, food, safety, etc.)','Track status: open / in-progress / resolved','Admin can update status','Email notification on resolution']},
+  schedule:{title:'Department schedule for students',pills:['Weekly timetable per department/year','Faculty assignment per session','Room / clinic number','Substitution notices in real-time','Download as PDF']},
+  syllabus:{title:'Syllabus updates',pills:['BDS year 1–4 syllabus','MDS syllabus per specialization','Downloadable PDFs','Version history (date of last update)','DCI curriculum reference']},
+  'student-res':{title:'Student resources',pills:['Circular board (admin-managed)','Study links & notes','Exam schedule','Contact faculty directory']},
+  hostel:{title:'Hostel portal',pills:['Room allotment info','Warden contacts','Complaint submission (linked to hostel complaint system)','Hostel rules & regulations']},
+  pg:{title:'PG doctor live updates',pills:['Real-time patient queue (Convex subscription)','Today\'s schedule','Patient case notes','Alert on new urgent case','Mobile-first layout']},
+  'patient-mgmt':{title:'Patient management',pills:['View patient record','Update appointment status','Upload reports / X-rays','Mark appointment complete','Add follow-up note']},
+  announce:{title:'Announcements',pills:['Push notification to patients (WhatsApp broadcast)','Email to students','Post to events page','Admin-only access']},
+  'auth-sys':{title:'Auth system (WorkOS)',pills:['3 roles: Patient, Student, Doctor/Admin','Social login (Google)','Magic link login','RBAC — route-level protection via Next.js middleware','Session management']},
+  db:{title:'Database (Convex)',pills:['Real-time subscriptions for live queue','Appointments table','Patients table','Complaints table','Schedules table','Documents/reports table','No SQL — document model with indexes']},
+  auto:{title:'Automation (n8n + WhatsApp)',pills:['Appointment confirmed → WhatsApp + Email','Reminder 24h before','Follow-up 3 days post-visit','Complaint resolved → Email','PG alert on new appointment','Trigger: Convex webhook → n8n → Baileys or WATI API']},
+  i18n:{title:'Localization',pills:['Google Translate widget (quick)','i18next for key UI strings in Kannada','Medical term glossary in Kannada & Tamil','Language toggle in nav','RTL not needed']},
+  chatbot:{title:'AI Chatbot',pills:['Launcher button (bottom-right)','Handles: appointment FAQs, dept info, directions','Escalate to contact form','Powered by Claude / OpenAI via API','Knowledge base: RRDCH info scraped + provided']},
+  anim:{title:'Animations (GSAP)',pills:['Page load hero animation','Scroll-triggered section reveals','Counter animation (achievements)','Smooth page transitions','GSAP ScrollTrigger for parallax']},
+};
+function show(k){
+  const d=data[k];
+  if(!d)return;
+  const box=document.getElementById('detail');
+  document.getElementById('d-title').textContent=d.title;
+  document.getElementById('d-pills').innerHTML=d.pills.map(p=>`<span class="pill">${p}</span>`).join('');
+  box.classList.add('show');
+  box.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+</script>
