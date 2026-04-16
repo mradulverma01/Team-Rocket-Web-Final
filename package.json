@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "shadcn": "^4.2.0"
+  },
+  "dependencies": {
+    "typescript": "^6.0.2"
   }
 }
